@@ -6,4 +6,6 @@ go:
 services:
     - redis-server
 
+install: make deps
+
 script: go test
