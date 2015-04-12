@@ -8,3 +8,8 @@ Test
 ----
 
 ```go test```
+
+TODO
+----
+
+- Add redigo connection pooling.
