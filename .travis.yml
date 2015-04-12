@@ -1,0 +1,9 @@
+language: go
+
+go:
+    - stable
+
+services:
+    - redis-server
+
+script: go test
